@@ -26,4 +26,6 @@ legend(x = "bottomright",
        bty = "n",
        cex = 0.8)
 
+dev.print(png, "plot.png", width = 1000, height = 1000)
+
 Sys.sleep(1000)
