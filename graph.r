@@ -16,7 +16,7 @@ plot(cim$Time,
      type="l",
      xlab="Time (s)",
      ylab="Power (W)",
-     main="Stall Power - 2 CIM vs. 3 MiniCIM vs 3 775pro")
+     main="Peak Power - 2 CIM vs. 3 MiniCIM vs 3 775pro")
 points(mini$Time,
        mini$Power,
        col="blue",
