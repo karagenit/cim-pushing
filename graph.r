@@ -9,6 +9,9 @@ mini$Power = mini$Power * 3
 pro$Power = pro$Power * 3
 
 x11()
+par(bg="#040404")
+par(fg="#FFFFFF", col.lab="#FFFFFF", col.main="#FFFFFF", col.axis="#FFFFFF")
+
 plot(cim$Time,
      cim$Power,
      col="red",
